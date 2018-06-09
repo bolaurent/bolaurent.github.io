@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Apex: Write to unwriteable SObject fields
+date:   2018-06-06 21:16:00 -0800
+categories: schema apex
 ---
 
 Have you ever wanted to create an SObject in memory, and write to one or more fields that are normally unwriteable? For instance,
