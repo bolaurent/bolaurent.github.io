@@ -20,7 +20,7 @@ public static SObject makeSObjectFromFields(Map<String, String>fields, System.Ty
 Here's an example of calling that method:
 
 {% highlight apex %}
-SchemaUtility.makeSObjectFromFields(
+OpportunityLineItem oli = (OpportunityLineItem)SchemaUtility.makeSObjectFromFields(
     new Map<String,String>{
         'ListPrice' => String.valueOf(pbe.UnitPrice)
     },
